@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width= device-width, initial-scal=1">
+<title>huiswerk25</title>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="css/huiswerkles25.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	
+</head>
+
+<body>
+	<header>
+	<ul class="nav justify-content-center">
+  		<li class="nav-item">
+    	<a class="nav-link active" aria-current="page" href="#">Home</a>
+  		</li>
+  		<li class="nav-item">
+    	<a class="nav-link" href="#"></a>
+  		</li>
+  		<li class="nav-item">
+    	<a class="nav-link" href="#"></a>
+  		</li>
+	</ul>
+	</header>
+	
+	<div class="album py-5 bg-light">
+		
+    <div class="container-md">
+		<p class="welkom">WELKOM</p>
+	<div class="row row-cols-1-md ">
+    <div class="col-md">
+    <div class="card shadow-md">
+			 
+         <img src="afbeeldingen/IMG_6659.jpeg" alt="landschap1">
+
+         <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			  <p id="onzichtbaar">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+         <div class="d-flex justify-content-between align-items-center">
+         <div id="btn-group">
+                <button type="button" class="btn btn-md btn-outline-secondary">Lees meer</button>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+		 <div id="btn-minder">
+				<button type="button" class="btn btn-md btn-outline-secondary">Lees minder</button>
+	     </div>
+			 
+			 
+				  	<script>
+					var knop= document.getElementById("btn-group");
+					knop.onclick =function(){
+						document.getElementById("onzichtbaar").style.display="block";
+						document.getElementById("btn-group").style.display="none";
+						document.getElementById("btn-minder").style.display="block";
+					}
+					</script>
+				  	<script>
+					var knop= document.getElementById("btn-minder");
+					knop.onclick =function(){
+						document.getElementById("btn-minder").style.display="none";
+						document.getElementById("btn-group").style.display="block";
+						document.getElementById("onzichtbaar").style.display="none";
+					}
+					</script>
+				
+		  </div>
+          </div>
+          </div>
+          </div>
+		
+          <div class="col-md">
+          <div class="card shadow-md">
+			  
+           		<img src="afbeeldingen/IMG_6744.jpeg" alt="landschap2">
+
+          <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			  <p id="onzichtbaar2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          <div id="btn-group2">
+                  <button type="button" class="btn btn-md btn-outline-secondary">Lees meer</button>
+                  </div>
+	       <div id="btn-minder2">
+				  <button type="button" class="btn btn-md btn-outline-secondary">Lees minder</button>
+		   </div>
+				
+				  	
+			  		<script>
+					var knop= document.getElementById("btn-group2");
+					knop.onclick =function(){
+						document.getElementById("onzichtbaar2").style.display="block";
+						document.getElementById("btn-group2").style.display="none";
+						document.getElementById("btn-minder2").style.display="block";
+					}
+				    </script>
+			  
+				    <script>
+					var knop= document.getElementById("btn-minder2");
+					knop.onclick =function(){
+						document.getElementById("btn-minder2").style.display="none";
+						document.getElementById("btn-group2").style.display="block";
+						document.getElementById("onzichtbaar2").style.display="none";
+					}
+					</script>
+               
+          </div>
+          </div>
+		  </div>
+          </div>
+
+          <div class="col-md">
+          <div class="card shadow-md">
+			  
+           		<img src="afbeeldingen/IMG_6243.jpeg" alt="landschap3">
+
+          <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				<p id="onzichtbaar3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          <div id="btn-group3">
+                  <button type="button" class="btn btn-md btn-outline-secondary">Lees meer</button>
+                 </div>
+	      <div id="btn-minder3">
+				  <button type="button" class="btn btn-md btn-outline-secondary">Lees minder</button>
+				  </div>
+			  
+			  
+				    <script>
+					var knop= document.getElementById("btn-group3");
+					knop.onclick =function(){
+						document.getElementById("onzichtbaar3").style.display="block";
+						document.getElementById("btn-group3").style.display="none";
+						document.getElementById("btn-minder3").style.display="block";
+					}
+				    </script>
+			  
+				    <script>
+					var knop= document.getElementById("btn-minder3");
+					knop.onclick =function(){
+						document.getElementById("btn-minder3").style.display="none";
+						document.getElementById("btn-group3").style.display="block";
+						document.getElementById("onzichtbaar3").style.display="none";
+					}
+					</script>
+				
+		   </div>
+		   </div>
+           </div>
+           </div>
+           </div>
+		   </div>
+		
+
+		   <div class="container-md">
+	       <div class="fotorama"
+	 			data-width="800"
+     			data-height="600"
+	 			data-transition="dissolve"
+	 			data-keyboard="true"
+				data-navposition="bottom">
+			   
+  				<img src="afbeeldingen/IMG_6659.jpeg" alt="boot">
+  				<img src="afbeeldingen/IMG_6744.jpeg" alt="water">
+				<img src="afbeeldingen/IMG_6243.jpeg" alt="boom">
+				
+			   
+		   </div>
+           </div>
+	       </div>
+	
+		   <div class="container-md">
+	       <div class="row row-md-col-12">
+		   <div class="col-md">
+			   <footer>© 2022, Sofie Denys <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</footer>
+			   
+		   </div>
+		   </div>
+		   </div>
+	 	  
+	
+</body>
+</html>
